@@ -132,7 +132,7 @@ These enhancements would improve the app’s usability and make it even more ver
 
 
 ## References
-1. [Reference 1: E.g., any books, articles, or online resources you used during development.]
+1. [Garanganga,K.2024. IMAD PoE Discussion 2023. Available at: URL(https://www.google.com/search?sca_esv=6090cfeb380320de&sxsrf=AHTn8zoa2qOnS_7W2xE8yhWGW7QxvEH_WQ:1743618354204&q=imad5112&udm=7&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBpwxALD7bRaeOIZxqOFEngzB_O_LYSS4XXpaWwzVPCpGQSJ_BiA90zEwL_VXFfuTVNO3201qRFaafeDNp_-GbQwHu1lVENZSTp4Uk_d8r3Q27TFGjSd9s1kECUA1D9NczBJ-cjTgcyXMBB6hfKD31imsxAJ3VfpZN5kNYPlbdpMB3Ey0Cw&sa=X&ved=2ahUKEwi27IDF_LmMAxULTEEAHTcSGmAQtKgLegQIEBAB&biw=1536&bih=730&dpr=1.25#fpstate=ive&vld=cid:fcd6559d,vid:lwTjXJVheK0,st:0)
 2. [Reference 2: Any relevant papers, documentation, or tutorials.]
 
 10. List of Figures
