@@ -1,5 +1,4 @@
 
-
 ### **README for Android App Development Assignment**
 
 1. Basic Information
@@ -91,8 +90,18 @@ The workflow ensures that my project is automatically built and tested every tim
 
 ![image](https://github.com/user-attachments/assets/619a7394-476c-4c23-bc95-5f0644517aaf)
 
-*Caption for screenshot 5: 
+*Caption for screenshot 5: Checks users input if its empty.If it is empty a warning message is displays
 
+![image](https://github.com/user-attachments/assets/7382a456-0094-4c6a-a743-48ba1d1e6ca8)
+
+*Caption for screenshot 6: Converts the users input to lowercase for comparison.
+                          The use of the when statement provides a meal suggestion for the specific time of day.
+                          If the input doesn't match the time of day an exception is thrown that they must enter the appropriate value.
+                          The catch captures the exception and displays an error message.
+                          
+![image](https://github.com/user-attachments/assets/c5c7707f-afd8-483c-823a-58d44eb8f8a3)
+
+*Caption for screenshot 7: Resets the meal that is displayed in the TextView to an empty screen
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
@@ -130,5 +139,3 @@ These enhancements would improve the app’s usability and make it even more ver
 
 ## List of Figures
 - **Figure 1**: ![image](https://github.com/user-attachments/assets/21801e74-8af0-48ee-9804-61e4e4a9fa23)
-
-- **Figure 2**: Screenshot of the user profile screen.
