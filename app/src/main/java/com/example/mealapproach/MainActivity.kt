@@ -12,6 +12,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
+    //The lateinit means that these variables will be initialized later
+    //These variables correspond to the UI components
     private lateinit var approachMeal: EditText
     private lateinit var MealApproachText: TextView
     private lateinit var buttonApproach: Button
@@ -22,11 +24,13 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        //the findviewbyid combines the ui components in to the layout to their appropriate variable codes
         approachMeal = findViewById(R.id.approachMeal)
         MealApproachText = findViewById(R.id.MealApproachText)
         buttonApproach = findViewById(R.id.buttonApproach)
         buttonReset = findViewById(R.id.buttonReset)
 
+        //sets up event listeners for the buttons calls when clicked
         buttonApproach.setOnClickListener {
             handleApproachMeal()
         }
@@ -34,13 +38,18 @@ class MainActivity : AppCompatActivity() {
             handleResetMealApproach()
         }
     }
-
+    //Retrieves the users input from the EditText
     private fun handleApproachMeal() {
         val mealInput = approachMeal.text.toString()
+        //checks users input if its empty.If it is a warning message it displays
         if (mealInput.isEmpty()) {
             MealApproachText.text = "Enter valid time of day displayed in the hint"
             return
         }
+        //Converts the users input to lowercase for comparison
+        // The use of the when statement provides a meal suggestion for the specific time of day
+        // If the input doesn't match the time of day an exception is thrown that they must enter the appropriate value
+        // The catch captures the exception and displays an error message
         try {
             MealApproachText.text = when(mealInput.lowercase()){
                 "morning" -> "Waffles with bacon, eggs with toast and tea"
@@ -55,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             }catch (e: IllegalArgumentException) {
             MealApproachText.text = e.message
         }
-    }
+    }//Resets the meal that is displayed in the TextView to an empty screen
     private fun handleResetMealApproach(){
         MealApproachText.setText("")
     }
