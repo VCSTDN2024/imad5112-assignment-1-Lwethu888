@@ -1,6 +1,5 @@
 
 ### **README for Android App Development Assignment**
-
 1. Basic Information
 
 # MealApproach
